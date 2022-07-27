@@ -1,0 +1,416 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar start */
+.navBar {
+    width: 100%;
+    height: 10vh;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: rgb(93, 167, 227);
+}
+
+.navBar .logo {
+    font-size: 1.7rem;
+    padding: 10px 10px;
+    display: grid;
+    align-items: center;
+}
+
+.navBar .cont {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+.navBar .cont a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.4rem;
+}
+
+.icon {
+    font-size: 25px;
+}
+
+.icon i {
+    margin: 5px;
+}
+
+
+/* slider start */
+
+.sli img {
+    width: 100%;
+    height: 60vh;
+}
+
+/* section1 start */
+
+.row {
+    width: 100%;
+    height: 25vh;
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr 1fr;
+}
+
+.box1 {
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 70px;
+
+}
+
+/* section2 start */
+
+.head1 {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-flow: wrap;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.box6,
+.box7,
+.box8,
+.box9,
+.box10,
+.box11,
+.box12,
+.box13,
+.box14,
+.box15,
+.box16,
+.box17 {
+    height: 55vh;
+    width: 43vh;
+    text-align: center;
+    box-shadow: 1px 1px 2px 1px rgb(180, 174, 174);
+    background-color: rgb(228, 248, 250);
+    cursor: pointer;
+    margin: 5px;
+}
+
+.img1,
+.img2,
+.img3,
+.img4,
+.img5,
+.img6,
+.img7,
+.img8,
+.img9,
+.img10,
+.img11,
+.img12,
+.img13,
+.img14,
+.img15,
+.img16 {
+    height: 47vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+
+.img1 {
+    background-image: url(./img/men1.png);
+
+}
+
+.img2 {
+    background-image: url(./img/men2.png);
+}
+
+.img3 {
+    background-image: url(./img/men3.png);
+}
+
+.img4 {
+    background-image: url(./img/men4.png);
+}
+
+/* section3 start */
+
+.img5 {
+    background-image: url(./img/wo1.png);
+}
+
+.img6 {
+    background-image: url(./img/wo2.png);
+}
+
+.img7 {
+    background-image: url(./img/wo3.png);
+}
+
+.img8 {
+    background-image: url(./img/wo4.png);
+}
+
+/* section 4 start */
+
+.img9 {
+    background-image: url(./img/kids1.png);
+}
+
+.img10 {
+    background-image: url(./img/kids2.png);
+}
+
+.img11 {
+    background-image: url(./img/kids3.png);
+}
+
+.img12 {
+    background-image: url(./img/kids4.png);
+}
+
+/* section 5 start */
+
+.img13 {
+    background-image: url(./img/e1.png);
+}
+
+.img14 {
+    background-image: url(./img/e2.png);
+}
+
+.img15 {
+    background-image: url(./img/e3.png);
+}
+
+.img16 {
+    background-image: url(./img/e4.png  );
+}
+
+
+/* section 6 start */
+.row1 {
+    width: 100%;
+    margin-top: 50 0px;
+    background-color: rgb(228, 248, 250);
+}
+
+.container2 {
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-flow: wrap;
+    align-items: center;
+    margin: 25px 0;
+}
+
+.box {
+    text-align: center;
+    cursor: pointer;
+    line-height: 22px;
+    padding: 20px;
+}
+
+.box i {
+    font-size: 40px;
+}
+
+/* section 7 start */
+
+.bgImg {
+    background-image: url(./img/shop.png);
+    height: 60vh;
+    width: 100%;
+    background-size: cover;
+
+}
+
+.black {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 56vh;
+    padding-top: 30px;
+}
+
+.inBx {
+    width: 75%;
+    height: 45vh;
+    background-color: rgba(177, 232, 248, 0.8);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.loGo {
+    border-right: solid 1px black;
+    font-size: 2rem;
+}
+
+/* soc */
+
+.soc {
+    margin: 40px auto;
+}
+
+.newIcon {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    cursor: pointer;
+}
+
+/* footer section */
+
+.container3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(177, 232, 248, 0.8);
+    margin: 25px 0;
+    width: 100%;
+    height: 40vh;
+
+}
+
+.emai input,
+.emai button {
+    height: 25px;
+    border: none;
+    outline: none;
+    padding: 5px;
+
+}
+
+.emai .sub {
+    background-color: red;
+    color: white;
+}
+
+.sub a {
+    text-decoration: none;
+    color: white;
+}
+
+.cont1,
+.cont2,
+.cont3 {
+    font-size: 1.1rem;
+}
+
+ul li{
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+
+}
+.cpyrht {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/* hover */
+.navBar .cont a:hover {
+    color: rgb(152, 201, 241);
+}
+
+ul li a:hover{
+    color: rgb(152, 201, 241);
+}
+
+.newIcon i:hover{
+    color: rgb(152, 201, 241);
+}
+.container2 i:hover{
+    color: rgb(152, 201, 241);
+}
+.icon i:hover{
+    color: rgb(152, 201, 241);
+}
+/* media quary */
+
+@media (max-width:835px) {
+    .navBar {
+        grid-template-columns: 1fr 3fr;
+    }
+
+    .navBar .cont a {
+        font-size: 1.2rem;
+    }
+
+    .icon {
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width:640px) {
+
+    .navBar .logo {
+        font-size: 1.5rem;
+    }
+
+    .navBar .cont a {
+        font-size: 1rem;
+    }
+
+    .icon {
+        font-size: 15px;
+    }
+
+    .cont1,
+    .cont2,
+    .cont3,
+    .conT {
+        font-size: 0.9rem;
+    }
+
+}
+
+@media (max-width:540px) {
+
+    .navBar .logo,
+    .loGo {
+        font-size: 1.3rem;
+    }
+
+    .navBar .cont a {
+        font-size: 0.8rem;
+    }
+
+    .icon {
+        font-size: 10px;
+    }
+
+    .cont1,
+    .cont2,
+    .cont3,
+    .conT {
+        font-size: 0.8rem;
+
+    }
+
+    .container3 {
+        grid-template-columns: 1fr;
+    }
+
+}
